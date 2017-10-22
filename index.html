@@ -1,0 +1,46 @@
+<header>
+    <title>Contact Api</title>
+</header>
+
+<body>
+    <h1>Welcome to Contacts API</h1>
+
+    <h2>Actions</h2>
+    <h5>To test POST, PUT, DELETE and PATCH Methods use a html toolchain like Postman</h5>
+    <ul>
+        <li>List Users
+            <br>
+            <a href="http://localhost:3000/api/contacts">GET: http://localhost:3000/api/contacts</a>
+        </li>
+        <li>Add New User
+            <br>
+            <a href="http://localhost:3000/api/contacts">POST: http://localhost:3000/api/contacts with JSON as Body</a>
+        </li>
+        <li>Delete User
+            <br>
+            <a href="http://localhost:3000/api/contacts/:contactId">DELETE: http://localhost:3000/api/contacts/:contactId</a>
+        </li>
+
+        <li>Update Full User Object
+            <br>
+            <a href="http://localhost:3000/api/contacts/:contactId">PUT: http://localhost:3000/api/contacts/:contactId with JSON as Body</a>
+        </li>
+        <li>Update Needed Property User Object
+            <br>
+            <a href="http://localhost:3000/api/contacts/:contactId">PATCH: http://localhost:3000/api/contacts/:contactId with JSON as Body
+            </a>
+        </li>
+        <li>List Single User
+            <br>
+            <a href="http://localhost:3000/api/contacts/:contactId">GET: http://localhost:3000/api/contacts/:contactId</a>
+        </li>
+        <li>Add Contacts to User
+            <br>
+            <a href="http://localhost:3000/api/contacts/:contactId">POST: http://localhost:3000/api/contacts/addContact/:contactId with JSON as Body containing a User Object</a>            
+        </li>
+        <li>Delete Contacts to User
+            <br>
+            <a href="http://localhost:3000/api/contacts/:contactId">POST: http://localhost:3000/api/contacts/removeContact/:contactId with JSON as Body containing a User Object</a>
+        </li>
+    </ul>
+</body>
